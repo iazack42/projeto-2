@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(255, 255, 255);
+    padding: 10px 0;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(93, 237, 232);
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-inline: 20px;
+    
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: green;
+    width: 100%;
+    background: url(R.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.formbox{
+   position: relative;
+   width: 400px;
+   height: 450px;
+   background: transparent;
+   border: 2px solid rgba(red, green, blue, alpha);
+   border-radius: 20px;
+   backdrop-filter: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    user-select: none;
+    
+}
+.imputbox{
+    position: relative;
+    margin:30px 0;
+    width: 350px;
+    border-bottom: 2px solid white;
+
+} 
+.imputbox label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.imputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: white;
+}
+.inputbox ion-icon{
+position: absolute;
+right: 15px;
+color: white;
+font-size: 1.2em;
+top: 20px;
+
+}
+.Esqueceu-a-Palavra-Passe{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: center;  
+    text-decoration: none;
+
+}
+.Esqueceu-a-Palavra-Passe label input{
+    margin-right: 3px;
+}
+.Esqueceu-a-Palavra-Passe label a{
+    color: white;
+    text-decoration: none;
+}
+.Esqueceu-a-Palavra-Passe label a :hover{
+    text-decoration: underline;
+}
+.button{
+
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+.registar{
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px;
+    
+}
+.registar p a{
+    text-decoration: none;
+    color: white;font-weight: 600;
+}
+.registar p a :hover{
+text-decoration: underline;
+}

@@ -1,0 +1,180 @@
+|*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+   
+}
+.navbar img{
+    width: 80px;
+    margin-right: 6%;
+}
+h1{
+    float: left;
+    color: white;
+    cursor: default;
+    
+    
+
+}
+.coluna{
+    background-color:white;
+    width: 1150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left:2%;
+}
+.coluna img{
+    width: 350px;
+    
+}
+.bel{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   text-transform: capitalize;
+   align-items: flex-end;
+   margin-left: 38%;
+   font-size: 20px;
+    line-height: 35px;
+    float: left;
+   ;
+}
+
+.coluna h2{
+    color: rgb(0,83,73);
+}
+.fundo{
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(0,83,73);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+button{
+    border:2px solid white;
+    background: transparent;
+    border-radius: 20px;
+    
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-inline: 20px;
+}
+.nav{
+    display: table-cell;
+    position: relative;
+    padding: 15px o;
+    
+
+}
+.a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15cm;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.esquerda{
+    margin: 6%;
+}
+.esquerda h1{
+    font-size: 80px;
+    color: white;
+    line-height: 90px;
+    float: left;
+}
+.conteiner{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.contentt{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    
+    
+   
+}
+.direita{
+    float: right;
+    margin-right: 6%;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+   
+}
+
+.direita a{
+    margin-inline: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+    position: relative;
+   
+}
+.direita a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.direita a:hover::after{
+    width: 100%;
+}
+.carroselslide{
+    margin-top: 300px;
+}
+.direita ion-icon{
+position: absolute;
+right: 15px;
+color: black;
+font-size: 1.2em;
+top: 20px;
+background-color: black;
+}
+
+}
+#icon{
+    width: 60px;
+    cursor: pointer;
+}
